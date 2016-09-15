@@ -1,103 +1,68 @@
-body{
-	background-color: #E0E3DA;
-	
-}
-
-body li{
-	list-style-type: none;
-
-}
-
-header h1 {
-	text-align: center;
-
-	
-}
-
 header{
-	border-style:none;
+	background-image: url(https://hd.unsplash.com/photo-1429305336325-b84ace7eba3b);
+	height: 100%;
+	width: 100%;
+	background-size: 100%;
+	position: relative;
+
+}
+header h1{
+	text-align: center;
+	border-bottom: solid white;
+	margin-bottom: 20px;
+
+}
+header h2{
+	text-align: center;
+	margin-top:200px;
+	margin-bottom: 400px;
+	font-size: 50px;
+}
+
+body{
+	margin-right: 20px;
 	background-color: #566270;
 }
-
-
-.gauche{
-	text-align: center;
-	border-style: groove;
-	margin-right: 20%;
-	width: 300px;
-
 }
-
-.info li{
-
-
-}
-
-.contact{
-	text-align: center;
-	border-style: groove;
-	margin-left: 400%;
-	margin-right: -100%;
-	width: 300px;
-
-}
-
-
-.droite{
-
-	border-style: groove;
-	margin-left: 20%;
-	width: 20%;
-	height: 100px;
-
-}
-
 
 .info{
+	border-style: solid;
+}
 
+.overlay{
+	background-color: #34314c;
 }
 
 
-.centre{
-	 
-	margin-top: 0%;
-}
-
-
-
-.formation .li{
-	text-align: center;
-}
-
-.formation h3{
+.overlay ul{
+	margin-top: -5px;
+	border-style: solid;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	list-style-type: none;
+	font-size: 20px;
 	
-	border-color: blue;
+
+}
+
+.overlay li{
+	margin-right: 150px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.overlay a{
 	color: black;
 }
 
-.experience.li{
-	text-align: center;}
-
-.experience h3{
-	
-	border-color: blue;
-	color: black;
+.overlay a:hover{
+	color: white;
 }
 
-.competence h3{
-		border-color: blue;
-	color: black;
-}
 
-.interet h3{
-	
-	border-color: blue;
-	color: black;
+main{
+	background-color: white;
 }
-
-.datef{
-	
-	border-color: blue;
-	color: black;
-}
-
